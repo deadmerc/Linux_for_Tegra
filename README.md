@@ -44,7 +44,7 @@ tar xpf tegra_linux_sample-root-filesystem_r36.3.0_aarch64.tbz2 -C Linux_for_Teg
 3. sync the source code for compiling
 ```
 cd Linux_for_Tegra/source/
-./source_sync.sh
+./source_sync.sh -t jetson_36.3
 ```
 4. clone this repo and overwrite the original source code
 ```
