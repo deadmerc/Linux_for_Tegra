@@ -32,13 +32,13 @@ Please pay attention to keywords such as **reComputer**, **Industrial**, **reSer
 1. Download and prepare the Linux_for_Tegra source code
 ```
 wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v3.0/release/jetson_linux_r36.3.0_aarch64.tbz2
-tar xpf jetson_linux_r36.3.0_aarch64.tbz2
+tar xf jetson_linux_r36.3.0_aarch64.tbz2
 ```
 
 2. Download and prepare sample root file system
 ```
 wget https://developer.nvidia.com/downloads/embedded/l4t/r36_release_v3.0/release/tegra_linux_sample-root-filesystem_r36.3.0_aarch64.tbz2
-tar xpf tegra_linux_sample-root-filesystem_r36.3.0_aarch64.tbz2 -C Linux_for_Tegra/rootfs/
+sudo tar xpf tegra_linux_sample-root-filesystem_r36.3.0_aarch64.tbz2 -C Linux_for_Tegra/rootfs/
 ```
 
 3. sync the source code for compiling
