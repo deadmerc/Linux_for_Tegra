@@ -48,8 +48,8 @@ cd Linux_for_Tegra/source/
 ```
 4. clone this repo and overwrite the original source code
 ```
-cd ..
-mkdir github/Linux_for_Tegra
+cd ../..
+mkdir -p github/Linux_for_Tegra
 git clone https://github.com/Seeed-Studio/Linux_for_Tegra.git -b r36.3.0 --depth=1 github/Linux_for_Tegra
 cp -r github/Linux_for_Tegra/* Linux_for_Tegra/
 ```
