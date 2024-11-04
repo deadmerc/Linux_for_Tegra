@@ -282,7 +282,7 @@
 
 			uart5_rts_py7 {
 				nvidia,pins = "uart5_rts_py7";
-				nvidia,function = "uarte";
+				nvidia,function = "rsvd1";
 				nvidia,pull = <TEGRA_PIN_PULL_UP>;
 				nvidia,tristate = <TEGRA_PIN_DISABLE>;
 				nvidia,enable-input = <TEGRA_PIN_DISABLE>;
