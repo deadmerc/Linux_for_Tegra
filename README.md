@@ -57,7 +57,7 @@ cp -r github/Linux_for_Tegra/* Linux_for_Tegra/
 5. apply necessary changes to rootfs
 ```
 cd Linux_for_Tegra
-./apply_binaries.sh
+sudo ./apply_binaries.sh
 ```
 
 6. prepare work for kernel build
